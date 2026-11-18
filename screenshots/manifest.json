@@ -1,0 +1,74 @@
+{
+  "00_cuota_sin_clave.png": {
+    "captured_at": "2026-11-18T09:29:12.696784-05:00",
+    "device": "emulator-5554",
+    "api": "29",
+    "size": "Physical size: 1080x1920",
+    "description": "Respuesta HTTP 429 del servicio real antes de configurar la clave de Google Books",
+    "sha256": "d50942abf9f8b69daa349708f42f7c2defda4a54f19712262071b10fbdc427b2",
+    "source": "adb exec-out screencap -p; PNG sin editar"
+  },
+  "04_error_sin_red.png": {
+    "captured_at": "2026-11-18T09:38:04.964014-05:00",
+    "device": "emulator-5554",
+    "api": "29",
+    "size": "Physical size: 1080x1920",
+    "description": "Petición real sin Wi-Fi ni datos; mensaje de conectividad y Reintentar",
+    "sha256": "e12b11529035b88d7a9b853e5fb66ce4e4363af8688599aa746893bf932a5f29",
+    "source": "adb exec-out screencap -p; PNG sin editar"
+  },
+  "03_carga.png": {
+    "captured_at": "2026-11-18T09:37:48.088077-05:00",
+    "device": "emulator-5554",
+    "api": "29",
+    "size": "Physical size: 1080x1920",
+    "description": "Consulta real a Google Books iniciada; indicador de carga de metadatos",
+    "sha256": "9f493ac8619dba809929feb7d4519418d4b4bc639c5277dca7749da0dc26aca7",
+    "source": "adb exec-out screencap -p; PNG sin editar"
+  },
+  "01_galeria.png": {
+    "captured_at": "2026-11-18T09:37:57.027447-05:00",
+    "device": "emulator-5554",
+    "api": "29",
+    "size": "Physical size: 1080x1920",
+    "description": "Libros y portadas de la consulta real jazz history en Google Books",
+    "sha256": "da31c3a95ed15e8bd125280d3177a7d54ccf25aba5b4a6021210bc7ed3226588",
+    "source": "adb exec-out screencap -p; PNG sin editar"
+  },
+  "02_desplazamiento.png": {
+    "captured_at": "2026-11-18T09:38:00.750670-05:00",
+    "device": "emulator-5554",
+    "api": "29",
+    "size": "Physical size: 1080x1920",
+    "description": "Cuadrícula desplazada a otros resultados de la consulta real",
+    "sha256": "5774b59015a350c7079f4095c097aeecbe1b530edc3cbf7a7178fd2074a3e951",
+    "source": "adb exec-out screencap -p; PNG sin editar"
+  },
+  "05_recuperacion.png": {
+    "captured_at": "2026-11-18T09:38:18.635113-05:00",
+    "device": "emulator-5554",
+    "api": "29",
+    "size": "Physical size: 1080x1920",
+    "description": "Misma consulta recuperada al restablecer la red y pulsar Reintentar",
+    "sha256": "2c6e82e59d96743e5db224d614409dc14f738aa41754ecbc6a946489c71aa085",
+    "source": "adb exec-out screencap -p; PNG sin editar"
+  },
+  "06_horizontal.png": {
+    "captured_at": "2026-11-18T09:38:23.875420-05:00",
+    "device": "emulator-5554",
+    "api": "29",
+    "size": "Physical size: 1080x1920",
+    "description": "Mismos resultados conservados al rotar; cuadrícula con más columnas",
+    "sha256": "0585314afe9b7c3b8075a3d0cde9458c33334fcbf675c5e392f5c0fc78c58d69",
+    "source": "adb exec-out screencap -p; PNG sin editar"
+  },
+  "07_busqueda.png": {
+    "captured_at": "2026-11-18T09:38:40.735071-05:00",
+    "device": "emulator-5554",
+    "api": "29",
+    "size": "Physical size: 1080x1920",
+    "description": "Búsqueda real de kotlin enviada por el campo y el botón Buscar",
+    "sha256": "3b954bb8d234170766dd7c00d3dd2273fa5226148c975cee2e790d11e0ceb82d",
+    "source": "adb exec-out screencap -p; PNG sin editar"
+  }
+}

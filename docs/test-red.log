@@ -1,0 +1,80 @@
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugResValues
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:javaPreCompileDebug
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:processDebugResources
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:processDebugJavaRes
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes
+
+> Task :app:testDebugUnitTest
+
+BooksRepositoryTest > detailFailureIsNotDisguisedAsSuccess FAILED
+    java.lang.AssertionError at BooksRepositoryTest.kt:60
+
+BooksRepositoryTest > absentItemsProducesEmptyList FAILED
+    java.lang.AssertionError at BooksRepositoryTest.kt:40
+
+BooksRepositoryTest > quotaFailureIsPropagated FAILED
+    java.lang.AssertionError at BooksRepositoryTest.kt:55
+
+BooksRepositoryTest > searchFetchesDetailsAndUpgradesThumbnailToHttps FAILED
+    java.lang.AssertionError at BooksRepositoryTest.kt:27
+
+BooksRepositoryTest > duplicateIdsAreRequestedOnlyOnce FAILED
+    java.lang.AssertionError at BooksRepositoryTest.kt:49
+
+BooksViewModelTest > loadingThenSuccessFromInjectedRepository FAILED
+    java.lang.ClassCastException at BooksViewModelTest.kt:28
+
+BooksViewModelTest > quotaFailureExplainsApiKeyRequirement FAILED
+    java.lang.ClassCastException at BooksViewModelTest.kt:49
+
+BooksViewModelTest > retryRecoversFromOfflineFailure FAILED
+    java.lang.AssertionError at BooksViewModelTest.kt:39
+
+BooksViewModelTest > emptyResponseHasDedicatedState FAILED
+    java.lang.AssertionError at BooksViewModelTest.kt:34
+
+BooksViewModelTest > whitespaceOnlySearchProducesEmptyState FAILED
+    java.lang.AssertionError at BooksViewModelTest.kt:67
+
+BooksViewModelTest > newSearchCancelsOldResults FAILED
+    java.lang.ClassCastException at BooksViewModelTest.kt:56
+
+12 tests completed, 11 failed
+
+> Task :app:testDebugUnitTest FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:testDebugUnitTest'.
+> There were failing tests. See the report at: file:///C:/Users/Erick/AndroidStudioProjects/Bookshelf/app/build/reports/tests/testDebugUnitTest/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+BUILD FAILED in 51s
+24 actionable tasks: 24 executed

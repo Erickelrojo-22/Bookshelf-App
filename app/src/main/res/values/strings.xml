@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="es">
+    <string name="app_name">Bookshelf</string>
+    <string name="tagline">Tu próxima lectura empieza aquí</string>
+    <string name="search_hint">Título, autor o tema</string>
+    <string name="search">Buscar</string>
+    <string name="collection">Explora tu biblioteca</string>
+    <plurals name="results">
+        <item quantity="one">%1$d libro · %2$s</item>
+        <item quantity="many">%1$d libros · %2$s</item>
+        <item quantity="other">%1$d libros · %2$s</item>
+    </plurals>
+    <string name="loading">Buscando libros…</string>
+    <string name="loading_detail">Consultando Google Books y las portadas</string>
+    <string name="error_title">No pudimos cargar los libros</string>
+    <string name="network_error">Revisa tu conexión a Internet y vuelve a intentarlo.</string>
+    <string name="quota_error">Google Books agotó la cuota de consultas (HTTP 429). Prueba más tarde o configura una clave de Books API con cuota disponible.</string>
+    <string name="http_error">Google Books respondió con un error (HTTP %1$d). Inténtalo más tarde.</string>
+    <string name="retry">Reintentar</string>
+    <string name="empty_title">Sin resultados</string>
+    <string name="empty_detail">Prueba con otro título, autor o tema.</string>
+    <string name="no_cover">Portada no disponible</string>
+    <string name="cover_description">Portada de %1$s</string>
+</resources>

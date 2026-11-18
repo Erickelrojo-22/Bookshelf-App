@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bookshelf.BooksViewModelTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-18T14:35:41" hostname="ERICKM" time="0.103">
+  <properties/>
+  <testcase name="loadingThenSuccessFromInjectedRepository" classname="com.example.bookshelf.BooksViewModelTest" time="0.062"/>
+  <testcase name="quotaFailureExplainsApiKeyRequirement" classname="com.example.bookshelf.BooksViewModelTest" time="0.009"/>
+  <testcase name="retryRecoversFromOfflineFailure" classname="com.example.bookshelf.BooksViewModelTest" time="0.009"/>
+  <testcase name="emptyResponseHasDedicatedState" classname="com.example.bookshelf.BooksViewModelTest" time="0.006"/>
+  <testcase name="whitespaceOnlySearchProducesEmptyState" classname="com.example.bookshelf.BooksViewModelTest" time="0.003"/>
+  <testcase name="newSearchCancelsOldResults" classname="com.example.bookshelf.BooksViewModelTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
